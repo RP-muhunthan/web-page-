@@ -1,0 +1,28 @@
+about page html code
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Web Page</title>
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <div class="container">
+    <h1> Bharath clickz</h1>
+    <div class="navbar">
+        <ul>
+            <li><a href="./index.html">home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#booknow">Book Now</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <h1> About Us</h1>
+        <p>We are a company dedicated to providing the best services to our customers.</p>
+        <p>Our team is passionate about delivering quality and excellence in everything we do.</p>
+        <p>Contact us to learn more about our services and how we can help you.</p>
+    </div>
