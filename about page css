@@ -1,0 +1,96 @@
+about page css
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-image: url(images/image\ 1.jpg);
+    background-color: rgba(0, 0, 0, 0.8);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: rgb(3, 3, 3);
+}
+
+.container{
+    background-color: rgb(241, 69, 6);
+    margin: 15px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container h1{
+   font-family: monospace;
+   font-weight: 500;
+   font-size: 200%;
+    margin-left: 15px;
+    cursor: pointer;
+    letter-spacing: 5px;
+}
+
+.navbar ul li {
+    display: inline-block;
+    padding: 18px;
+    margin-right: 15px;
+    text-transform: uppercase;
+
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(2, 2, 2);
+    padding: 5px;
+    transition: box-shadow 0.3s ease, color 0.3s ease;
+}
+
+.navbar ul li a:hover{
+    box-shadow: 0 3px 50px rgb(62, 62, 62) inset, 0 30px 50px rgb(69, 68, 68) inset;
+    color: rgb(64, 63, 63);
+}
+
+.content{
+    position: absolute;
+    color: white;
+    top: 35%;
+    left: 15%;
+
+}
+
+.content h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    margin-left: 20px;
+    color: rgb(197, 81, 9);
+}
+
+.content h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    margin-left: 20px;
+    letter-spacing: 5px;
+}
+
+.content p{
+    font-family: sans-serif;
+    font-size: 25px;
+    margin-left: 20px;
+    line-height: 1.5;
+}
+
+.enquire-now{
+    position: absolute;
+    margin-top:61%;
+    margin-left: 15%;
+}
+
+.enquire-now a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 12px 25px;
+    background-color: rgb(226, 74, 9);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
