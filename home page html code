@@ -1,0 +1,40 @@
+home page (html code)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Web Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <div class="container">
+    <h1> Engineers spanz</h1>
+    <div class="navbar">
+        <ul>
+            <li><a href="./index.html">home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#booknow">Book Now</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <h2>capture</h2>
+        <h3>The Moment,</h3>
+        <p> what i like about photography is that they capture
+            a Moment thats gone forever, </p>
+
+        <p> a picture is secret about a script that more it tells
+            you the less you know. </p>
+    </div>
+
+    <div class="enquire-now">
+        <a href="#">Enquire Now</a>
+    </div>
+    
+   </div>
+
+</body>
+</html>
